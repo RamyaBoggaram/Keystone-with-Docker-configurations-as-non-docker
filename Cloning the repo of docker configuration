@@ -1,0 +1,6 @@
+Clone the below repo for non-docker version of keystone containing docker
+environment:
+git clone --recursive https://github.com/keystone-enclave/keystone.git
+cd keystone
+git checkout 4e96652
+
