@@ -1,0 +1,7 @@
+./fast-setup.sh
+source source.sh
+mkdir build
+cd build
+cmake ..
+make
+make image
