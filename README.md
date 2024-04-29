@@ -6,6 +6,7 @@ git clone --recursive https://github.com/keystone-enclave/keystone.git
 cd keystone
 git checkout 4e96652
 ```
+without the checkout, latest version of keystone is cloned so make sure to use checkout to clone docker configuration keystone
 # 2. Install Dependencies
 ```
 sudo apt update
