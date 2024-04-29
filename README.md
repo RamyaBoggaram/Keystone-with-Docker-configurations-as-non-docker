@@ -39,9 +39,9 @@ Result should show lines:
 Welcome to Buildroot
 ```
 buildroot login:
+```
 Login as `root` with the password `sifive`.
 You can exit QEMU by `ctrl-a + x` or using `poweroff` command.
-```
 # 5. To run hello world
 ```
 insmod keystone-driver.ko
