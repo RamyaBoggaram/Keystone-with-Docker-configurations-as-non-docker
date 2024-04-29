@@ -1,5 +1,5 @@
 # Keystone-with-Docker-configurations-as-non-docker
-These are the steps to build your own hello world application and run in keystone.
+These are the steps to build keystone as non-docker which can run cpp files and have the docker configurations.
 # 1. Clone the Repo
 ```
 git clone --recursive https://github.com/keystone-enclave/keystone.git
