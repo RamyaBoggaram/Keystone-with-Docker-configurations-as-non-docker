@@ -27,15 +27,23 @@ cmake ..
 make
 make image
 ```
-# 4. To run hello world
+# 4. To build the package
 In your build directory:
 ```
 make hello-package
 cp examples/hello/hello.ke ./overlay/root
 make image
 ./scripts/run-qemu.sh
-Username: root
-Password: sifive
+```
+Result should show lines:
+Welcome to Buildroot
+```
+buildroot login:
+Login as `root` with the password `sifive`.
+You can exit QEMU by `ctrl-a + x` or using `poweroff` command.
+```
+# 5. To run hello world
+```
 insmod keystone-driver.ko
 ./hello.ke
 ```
