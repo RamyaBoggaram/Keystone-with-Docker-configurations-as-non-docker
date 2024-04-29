@@ -1,9 +1,0 @@
-In your build directory:
-make hello-package
-cp examples/hello/hello.ke ./overlay/root
-make image
-./scripts/run-qemu.sh
-Username: root
-Password: sifive
-insmod keystone-driver.ko
-./hello.ke
