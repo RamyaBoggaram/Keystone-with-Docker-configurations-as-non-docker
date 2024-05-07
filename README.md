@@ -28,6 +28,10 @@ cmake ..
 make
 make image
 ```
+If you close the terminal, make sure that you setup the environment again using 
+```
+source source.sh
+```
 # 4. To build the package
 In your build directory:
 ```
